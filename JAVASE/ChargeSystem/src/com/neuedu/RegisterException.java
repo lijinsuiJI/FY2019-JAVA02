@@ -1,0 +1,12 @@
+package com.neuedu;
+
+//×¢²áÒì³£
+class RegisterException extends RuntimeException{
+	
+	public RegisterException() {
+		super();
+	}
+	public RegisterException(String msg) {
+		super(msg);
+	}
+}
